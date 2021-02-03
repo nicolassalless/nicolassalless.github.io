@@ -27,14 +27,9 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
        /* global Phaser */
-(function (window) {
-    'use strict';
-    window.opspark = window.opspark || {};
-    let opspark = window.opspark;
-    window.opspark.cannon = window.opspark.cannon || {};
 
-    opspark.cannon.factory = function (game) {
-        const
+
+  
             assetKeyCannon = 'cannon',
             assetKeyProjectile = 'projectile',
             projectileHalfSize = 12;
