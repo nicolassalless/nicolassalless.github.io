@@ -58,8 +58,8 @@
                     collectable.body.height = 44;
                     break;
                     
-                case '':
-                case '':
+                case 'max':
+                case 'steve':
                     collectable.scale.x = collectable.scale.y = 0.9;
                     break;
                 
