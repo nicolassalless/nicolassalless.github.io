@@ -80,7 +80,7 @@ Function Declaration simply define how a function operates - it does not execute
 Here is an example of a function call to the `create` function:
 
 ```javascript
-createCannon(400, 200, 1, 2, true);
+createPlatform(400, 200, 1, 2, true);
 ```
 
 A function call can be made by providing the same headline as the function definition but with actual data values, or **Arguments**, in the place of the parameters. 
