@@ -36,12 +36,7 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
-(function (window) {
-    'use strict';
-    window.opspark = window.opspark || {};
-    let opspark = window.opspark;
-    window.opspark.collectable = window.opspark.collectable || {};
-    
+
     opspark.collectable.factory = function (game) {
         game.collectable = game.add.group();
         game.collectable.enableBody = true;
