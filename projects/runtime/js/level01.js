@@ -21,6 +21,19 @@ var level01 = function (window) {
                 { "type": "sawblade", "x": 900, "y": groundY },
             ]
         };
+        /*
+        for (var i - 0; i < levelData.gameItems.length;i++){
+            var firstObject = levelData.gameItems[i];
+            var firstX
+            var firstY
+            var firstType
+                if(){
+
+                }else if {
+
+                }
+        }
+        */ 
         window.levelData = levelData;
         // set this to true or false depending on if you want to see hitzones
         game.setDebugMode(true);
@@ -41,3 +54,4 @@ if((typeof process !== 'undefined') &&
     // here, export any references you need for tests //
     module.exports = level01;
 }
+
