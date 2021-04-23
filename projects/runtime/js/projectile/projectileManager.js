@@ -89,4 +89,3 @@
         return _projectileManager;
     };
 }(window));
-
